@@ -58,7 +58,7 @@ Este proyecto ha sido diseñado para mostrar el uso de varias características c
 
 Su rol principal en el desarrollo web frontal (lo que ves en el navegador) es:
 
-Manipulación del DOM (Document Object Model): Permite cambiar el contenido, la estructura y el estilo de una página web en tiempo real. En esta aplicación, JavaScript crea dinámicamente elementos **<li>** para las tareas y los inserta en el **<ul>**.
+Manipulación del DOM (Document Object Model): Permite cambiar el contenido, la estructura y el estilo de una página web en tiempo real. En esta aplicación, JavaScript crea dinámicamente elementos `<li>` para las tareas y los inserta en el `<ul>`.
 
 Gestión de Eventos: Responde a las interacciones del usuario (clics, pulsaciones de teclas, envíos de formularios, etc.). Aquí, JavaScript escucha los clics en el botón "Agregar Tarea" y en las propias tareas para agregar o eliminar elementos.
 
