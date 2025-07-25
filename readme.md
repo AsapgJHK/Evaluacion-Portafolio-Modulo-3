@@ -52,40 +52,43 @@ La aplicación permite a los usuarios:
 
 Este proyecto ha sido diseñado para mostrar el uso de varias características clave de JavaScript en el desarrollo web interactivo:
 
-1. ¿Qué es JavaScript y su rol en el desarrollo de aplicaciones web?
-JavaScript es un lenguaje de programación interpretado, ligero, basado en objetos y multiplataforma. Es el lenguaje esencial para la interactividad en la web. Inicialmente diseñado para funcionar en el lado del cliente (en el navegador), su rol se ha expandido enormemente con la llegada de Node.js, permitiendo también el desarrollo en el lado del servidor y aplicaciones de escritorio o móviles.
+## ¿Qué es JavaScript y su rol en el desarrollo de aplicaciones web?
+
+**JavaScript** es un lenguaje de programación interpretado, ligero, basado en objetos y multiplataforma. Es el lenguaje esencial para la interactividad en la web. Inicialmente diseñado para funcionar en el lado del cliente (en el navegador), su rol se ha expandido enormemente con la llegada de Node.js, permitiendo también el desarrollo en el lado del servidor y aplicaciones de escritorio o móviles.
 
 Su rol principal en el desarrollo web frontal (lo que ves en el navegador) es:
 
-Manipulación del DOM (Document Object Model): Permite cambiar el contenido, la estructura y el estilo de una página web en tiempo real. En esta aplicación, JavaScript crea dinámicamente elementos <li> para las tareas y los inserta en el <ul>.
+Manipulación del DOM (Document Object Model): Permite cambiar el contenido, la estructura y el estilo de una página web en tiempo real. En esta aplicación, JavaScript crea dinámicamente elementos **<li>** para las tareas y los inserta en el **<ul>**.
 
 Gestión de Eventos: Responde a las interacciones del usuario (clics, pulsaciones de teclas, envíos de formularios, etc.). Aquí, JavaScript escucha los clics en el botón "Agregar Tarea" y en las propias tareas para agregar o eliminar elementos.
 
 Comunicación Asíncrona: Aunque no se usa en este proyecto, JavaScript facilita la carga de datos de servidores sin recargar la página (AJAX, Fetch API), creando experiencias de usuario más fluidas.
 
-2. Ventajas de usar JavaScript para crear aplicaciones interactivas en el navegador
-Interactividad Dinámica: Transforma páginas web estáticas en experiencias de usuario ricas y dinámicas, como se ve al añadir o eliminar tareas sin recargar la página.
+## Ventajas de usar JavaScript para crear aplicaciones interactivas en el navegador
 
-Ejecución en el Cliente: Se ejecuta directamente en el navegador del usuario, lo que reduce la carga en el servidor y mejora la velocidad de respuesta de la aplicación.
+**Interactividad Dinámica:** Transforma páginas web estáticas en experiencias de usuario ricas y dinámicas, como se ve al añadir o eliminar tareas sin recargar la página.
 
-Ecosistema Amplio: Cuenta con una vasta cantidad de librerías, frameworks (React, Angular, Vue) y herramientas que aceleran el desarrollo y resuelven problemas comunes.
+**Ejecución en el Cliente:** Se ejecuta directamente en el navegador del usuario, lo que reduce la carga en el servidor y mejora la velocidad de respuesta de la aplicación.
 
-Versatilidad: Es el único lenguaje que se ejecuta de forma nativa en todos los navegadores web modernos.
+**Ecosistema Amplio:** Cuenta con una vasta cantidad de librerías, frameworks (React, Angular, Vue) y herramientas que aceleran el desarrollo y resuelven problemas comunes.
 
-3. Ejemplos de funcionalidades posibles gracias a JavaScript
+**Versatilidad:** Es el único lenguaje que se ejecuta de forma nativa en todos los navegadores web modernos.
+
+## Ejemplos de funcionalidades posibles gracias a JavaScript
 Más allá de esta To-Do List, JavaScript es fundamental para:
 
-Interactividad en Formularios: Validar campos en tiempo real (ej: si un email es válido), mostrar/ocultar secciones basadas en la entrada del usuario.
+**Interactividad en Formularios:** Validar campos en tiempo real (ej: si un email es válido), mostrar/ocultar secciones basadas en la entrada del usuario.
 
-Galerías de Imágenes o Carruseles: Moverse entre imágenes, aplicar efectos de transición.
+**Galerías de Imágenes o Carruseles:** Moverse entre imágenes, aplicar efectos de transición.
 
-Animaciones y Transiciones: Crear efectos visuales suaves sin recargar la página, mejorando la experiencia del usuario.
+**Animaciones y Transiciones:** Crear efectos visuales suaves sin recargar la página, mejorando la experiencia del usuario.
 
-Mapas Interactivos: Integrar Google Maps u otras APIs de mapas con funcionalidades de zoom, arrastrar, etc.
+**Mapas Interactivos:** Integrar Google Maps u otras APIs de mapas con funcionalidades de zoom, arrastrar, etc.
 
-Aplicaciones de Una Sola Página (SPA): Cargar todo el contenido de la aplicación en una sola carga inicial y luego actualizar solo las partes necesarias (ej: Gmail, Google Docs), proporcionando una experiencia similar a una aplicación de escritorio.
+**Aplicaciones de Una Sola Página (SPA):** Cargar todo el contenido de la aplicación en una sola carga inicial y luego actualizar solo las partes necesarias (ej: Gmail, Google Docs), proporcionando una experiencia similar a una aplicación de escritorio.
 
 # 📊 Estructuras de Datos y Control de Flujo
+
 Variables Simples y Sentencias Condicionales:
 
 Se utiliza una variable simple (taskText) para capturar la entrada del usuario.
